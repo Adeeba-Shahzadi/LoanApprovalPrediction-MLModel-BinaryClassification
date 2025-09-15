@@ -82,7 +82,7 @@ We used the following metrics to evaluate model performance:
 - LoanApprovalPrediction.ipynb → Jupyter Notebook with step-by-step implementation.
 
 - loan_approval_dataset.csv → Dataset for training
-- loan_prediction.py → Python script version.
+- loanapprovalprediction.py → Python script version.
 
 - requirements.txt → Required libraries.
 
@@ -91,11 +91,10 @@ We used the following metrics to evaluate model performance:
 ## ▶️ How to Run
 - Run with Jupyter Notebook:
 ```bash
-    Copy code
-    jupyter notebook loan_prediction.ipynb
+    jupyter notebook LoanApprovalPrediction.ipynb
 ```
 - Run with Python:
 ```bash
     Copy code
-    python loan_prediction.py
+    python loanapprovalprediction.py
 ```
