@@ -1,4 +1,4 @@
-# Student Loan Approval Prediction
+# Loan Approval Prediction
 
 This project predicts whether a **loan application will be approved or rejected** based on applicant details. It uses **Machine Learning classification models** like Logistic Regression and Decision Tree.
 
@@ -95,25 +95,23 @@ Higher accuracy, well-controlled overfitting with depth limit.
 
 2. Install required dependencies:
 ```bash
-    Copy code
     pip install -r requirements.txt
 ```
 
 ## 📂 Files
 - LoanApprovalPrediction.ipynb → Jupyter Notebook with step-by-step implementation.
 - loan_approval_dataset.csv → Dataset for training
-- loan_prediction.py → Python script version.
+- loanapprovalprediction.py → Python script version
 - requirements.txt → Required libraries.
 - README.md → Project documentation.
 
 ## ▶️ How to Run
 - Run with Jupyter Notebook:
 ```bash
-    Copy code
-    jupyter notebook loan_prediction.ipynb
+    jupyter notebook LoanApprovalPrediction.ipynb
 ```
 - Run with Python:
 ```bash
     Copy code
-    python loan_prediction.py
+    python loanapprovalprediction.py
 ```
