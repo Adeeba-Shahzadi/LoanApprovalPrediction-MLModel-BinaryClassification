@@ -5,11 +5,9 @@ This project predicts whether a **loan application will be approved or rejected*
 ---
 
 ## 📌 Project Overview
-Loan approval prediction is a **binary classification problem**:
-- **Approved (1)**
-- **Rejected (0)**  
 
-It use ML models to train on past loan application data and predict outcomes for new applicants.
+This project predicts whether a loan application will be  **Approved (1)** or  **Rejected (0)** using machine learning models.
+We explore and preprocess the dataset, apply classification models, and compare their performance with evaluation metrics.
 
 ---
 ## 📂 Dataset
@@ -56,7 +54,7 @@ It use ML models to train on past loan application data and predict outcomes for
 ---
 
 ## 📊 Evaluation Metrics
-We used the following metrics to evaluate model performance:
+It used the following metrics to evaluate model performance:
 
 - **Accuracy** → Correct predictions / Total predictions  
 - **Precision** → Out of predicted "Approved", how many were actually "Approved"  
@@ -65,11 +63,33 @@ We used the following metrics to evaluate model performance:
 - **Confusion Matrix** → Table showing True/False Positives and Negatives  
 ---
 
+## 📊 Results
+- Logistic Regression
+
+Training Accuracy: 79.5%
+Testing Accuracy: 79.8%
+Balanced performance, slightly lower accuracy.
+
+- Decision Tree (max_depth=5)
+
+Training Accuracy: 97.5%
+Testing Accuracy: 96.8%
+Higher accuracy, well-controlled overfitting with depth limit.
+
+✅ Decision Tree performed better on this dataset.
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- Pandas, NumPy → Data handling
+- Matplotlib, Seaborn → Visualization
+- Scikit-learn → Machine Learning models & metrics
+
 ## 🛠️ Installation
 
 1. Clone the repository (or download the files):
 ```bash
-   git clone https://github.com/Adeeba-Shahzadi/LoanApprovalPrediction-BinaryClassification.git
+   git clone https://github.com/Adeeba-Shahzadi/LoanApprovalPrediction-MLModel-BinaryClassification.git
    cd LoanApprovalPrediction-BinaryClassification
 ```
 
@@ -81,12 +101,9 @@ We used the following metrics to evaluate model performance:
 
 ## 📂 Files
 - LoanApprovalPrediction.ipynb → Jupyter Notebook with step-by-step implementation.
-
 - loan_approval_dataset.csv → Dataset for training
 - loan_prediction.py → Python script version.
-
 - requirements.txt → Required libraries.
-
 - README.md → Project documentation.
 
 ## ▶️ How to Run
