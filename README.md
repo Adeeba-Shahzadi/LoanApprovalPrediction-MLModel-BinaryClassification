@@ -75,7 +75,6 @@ We used the following metrics to evaluate model performance:
 
 2. Install required dependencies:
 ```bash
-    Copy code
     pip install -r requirements.txt
 ```
 
