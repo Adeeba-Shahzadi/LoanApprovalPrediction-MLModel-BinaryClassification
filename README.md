@@ -1,4 +1,4 @@
-# Student Loan Approval Prediction
+# Loan Approval Prediction
 
 This project predicts whether a **loan application will be approved or rejected** based on applicant details. It uses **Machine Learning classification models** like Logistic Regression and Decision Tree.
 
