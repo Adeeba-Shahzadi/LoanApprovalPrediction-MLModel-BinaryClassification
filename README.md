@@ -89,7 +89,7 @@ Higher accuracy, well-controlled overfitting with depth limit.
 
 1. Clone the repository (or download the files):
 ```bash
-   git clone https://github.com/Adeeba-Shahzadi/LoanApprovalPrediction-MLModel-BinaryClassification.git
+   git clone https://github.com/Adeeba-Shahzadi/LoanApprovalPrediction-BinaryClassificationModel.git
    cd LoanApprovalPrediction-BinaryClassification
 ```
 
@@ -112,6 +112,5 @@ Higher accuracy, well-controlled overfitting with depth limit.
 ```
 - Run with Python:
 ```bash
-    Copy code
     python loanapprovalprediction.py
 ```
